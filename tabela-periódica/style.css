@@ -1,0 +1,205 @@
+body{
+   font-family: 'Montserrat', sans-serif;
+   
+}
+.titulo{
+  font-family: 'Shadows Into Light', cursive;
+  text-align: center;
+  font-size: 50px
+
+}
+
+
+main{
+    width: 985px;
+    background-color: cadetblue;
+    margin: 50px auto ;
+ display: grid;
+    gap:5px;
+   grid-template-columns: repeat(18,50px);
+ grid-template-rows: repeat(7,50px)repeat(2,50px);
+ padding: 30px;
+ border-radius: 20px;
+
+}
+main > div {
+    background-color: blueviolet;
+    border-radius: 3px;
+    
+}
+ main> div> h2{
+     margin: 0;
+    text-align: center;
+    
+ }
+ main> div >span{
+     font-size: 9px;
+     /*background-color: indianred;*/
+     display: block;
+     padding: 2px;
+     
+}
+
+main > div:nth-child(2){
+      /*  background-color: indigo;*/
+    grid-column-start: 18;
+}
+
+main > div:nth-child(5){
+  grid-column: 13;
+
+}
+main > div:nth-child(13){
+  grid-column: 13;
+  
+}
+
+    main> div:nth-child(1){
+      background-color:violet;
+    }
+
+
+.terrosos{
+  background-color: #ffde4b;
+}
+
+   
+        .alcalino{
+  background-color: greenyellow;
+}
+.transicao{
+ background-color: green;
+}
+main >div:nth-child(57){
+  grid-column-start: 4;
+  grid-row-start: 9;
+}
+main >div:nth-child(58){
+  grid-column-start: 5;
+  grid-row-start: 9;
+}
+main >div:nth-child(59){
+  grid-column-start: 6;
+  grid-row-start: 9;
+}
+main >div:nth-child(60){
+  grid-column-start: 7;
+  grid-row-start: 9;
+}
+main >div:nth-child(61){
+  grid-column-start: 8;
+  grid-row-start: 9;
+}
+main >div:nth-child(62){
+  grid-column-start: 9;
+  grid-row-start: 9;
+}
+
+main >div:nth-child(63){
+  grid-column-start: 10;
+  grid-row-start: 9;
+}
+
+main >div:nth-child(64){
+  grid-column-start: 11;
+  grid-row-start: 9;
+}
+
+main >div:nth-child(65){
+  grid-column-start: 12;
+  grid-row-start: 9;
+}
+main >div:nth-child(66){
+  grid-column-start: 13;
+  grid-row-start: 9;
+}
+main >div:nth-child(67){
+  grid-column-start: 14;
+  grid-row-start: 9;
+}
+
+main >div:nth-child(68){
+  grid-column-start: 15;
+  grid-row-start: 9;
+}
+main >div:nth-child(69){
+  grid-column-start: 16;
+  grid-row-start: 9;
+}
+main >div:nth-child(70){
+  grid-column-start: 17;
+  grid-row-start: 9;
+}
+
+main >div:nth-child(71){
+  grid-column-start: 18;
+  grid-row-start: 9;
+}
+
+main >div:nth-child(89){
+  grid-column-start:4 ;
+  grid-row-start: 10;
+}
+main >div:nth-child(90){
+  grid-column-start: 5;
+  grid-row-start: 10;
+}
+
+main >div:nth-child(91){
+  grid-column-start: 6;
+  grid-row-start: 10;
+}
+
+
+main >div:nth-child(92){
+  grid-column-start: 7;
+  grid-row-start: 10;
+}
+main >div:nth-child(93){
+  grid-column-start: 8;
+  grid-row-start: 10;
+}
+main >div:nth-child(94){
+  grid-column-start: 9;
+  grid-row-start: 10;
+}
+main >div:nth-child(95){
+  grid-column-start: 10;
+  grid-row-start: 10;
+}
+
+
+main >div:nth-child(96){
+  grid-column-start: 11;
+  grid-row-start: 10;
+}
+main >div:nth-child(97){
+  grid-column-start: 12;
+  grid-row-start: 10;
+}
+main >div:nth-child(98){
+  grid-column-start: 13;
+  grid-row-start: 10;
+}
+main >div:nth-child(99){
+  grid-column-start: 14;
+  grid-row-start: 10;
+}
+main >div:nth-child(100){
+  grid-column-start: 15;
+  grid-row-start: 10;
+}
+main >div:nth-child(101){
+  grid-column-start: 16;
+  grid-row-start: 10;
+}
+
+main >div:nth-child(102){
+  grid-column-start: 17;
+  grid-row-start: 10;
+}
+
+main >div:nth-child(103){
+  grid-column-start: 18;
+  grid-row-start: 10;
+}
